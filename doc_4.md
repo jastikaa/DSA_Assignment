@@ -65,4 +65,11 @@ Display the List After Each Operation
 
 The updated list is displayed after insertion and after deletion.
 
+
 ## (d) Output of a Complete Run of the Program
+Original list is: 6 9 12
+insert 10 after 9 then result is: 6 9 10 12
+After deleting 12 the result is: 6 9 10
+
+## Conclusion
+Here, this program demonstrates the operation of a doubly linked list as well as the ease with which a node may be inserted after a given node or node removed anywhere in the list. By having prev and next pointers it is easy to move either way and have the list in the correct order following modifications. It can be seen that the insert and delete functions perform as required, and that after exiting each of the functions, the list is still correct.
