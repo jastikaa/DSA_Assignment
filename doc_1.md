@@ -1,6 +1,6 @@
-#Question 1: Check for Balanced Parentheses Using Stack
+# Question 1: Check for Balanced Parentheses Using Stack
 
-##(a) Data structure defination
+## (a) Data structure defination
 
 A stack data structure is also used in the program as a means of verifying parentheses balancing in given mathematical expression.
 
@@ -20,7 +20,7 @@ int top = -1;
 
 The stack is used to store opening brackets (, {, [ when they appear in the expression. When a closing bracket is encountered, it checks the stack to find a matching pair.
 
-##(b) Description of the Functions Implemented
+## (b) Description of the Functions Implemented
 1. void push(char ch)
 Purpose: Pushes a character (ch) onto the stack if there’s space.
 this ia applied in case of opening bracket is found.
@@ -49,7 +49,7 @@ Pop from the stack and check if it matches using isMatchingPair.
 If unmatched or stack is empty during the pop, return not balanced.
 At last, return true if the stack is empty (i.e., all brackets matched).
 
-##(c) An Overview of How the main() Method Is Organized
+## (c) An Overview of How the main() Method Is Organized
 The main() function performs the following:
 
 Initializes an array of test expressions:
@@ -64,7 +64,7 @@ Calls isBalanced() for each expression.
 
 Prints whether each expression is Balanced or Not Balanced.
 
-##(d) Output of a Complete Run of the Program
+## (d) Output of a Complete Run of the Program
 mathematical
 Expression: a + (b - c) * (d
 Not Balanced 
@@ -75,5 +75,6 @@ Not Balanced
 Expression: a + (b - c)
 Balanced 
 
-##(e)Conclusion
+## (e)Conclusion
+
 This program effectively applies a stack to check for balance parenthesis, brackets and braces in mathematical expression. It addresses such common edge cases as a lack of closing or opening bracket, nested expressions and various types of brackets.
